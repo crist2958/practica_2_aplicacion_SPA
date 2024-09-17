@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.form-section {
+    display: none;
+}
+
+#form-rfc, #form-api {
+    display: none;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+}
+
+button[type="submit"], #api-button, [type="button"] {
+    padding: 10px;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#rfc-output, #api-output {
+    margin-top: 20px;
+    text-align: center;
+}
